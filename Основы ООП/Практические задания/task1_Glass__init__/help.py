@@ -13,6 +13,10 @@ book_2 = Book()
 print(book_1)
 print(book_2)
 
+book_3 = Book('Автор', 50)
+print(book_3)
+
+
 '''
 функция type() позволяет определить тип объекта,
 т.е. класс , от которого создан объект
@@ -54,3 +58,5 @@ isinstance(object_, type_)
 # Проверяем является ли a = [1, 4, 8] списком
 a = [1, 4, 8]
 print(isinstance(a, list))  # True
+
+

@@ -9,7 +9,7 @@ files:
   - name: tests/output.txt
     visible: false
     learner_created: false
-  - name: help.py
+  - name: without annotation for debug.py
     visible: true
     learner_created: true
   - name: theory.py

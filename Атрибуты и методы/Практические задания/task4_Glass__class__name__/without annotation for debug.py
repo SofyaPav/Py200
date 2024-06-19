@@ -1,8 +1,4 @@
-
-
-
 class Glass:
-
     def __init__(self, capacity_volume, occupied_volume):
         self.capacity_volume = capacity_volume  # объем стакана
         self.occupied_volume = occupied_volume  # объем жидкости в стакане

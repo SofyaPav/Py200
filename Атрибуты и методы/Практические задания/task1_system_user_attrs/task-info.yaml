@@ -9,6 +9,12 @@ files:
   - name: L2_P1_18-18.py
     visible: true
     learner_created: true
+  - name: L2_P1_by Obidin.py
+    visible: true
+    learner_created: true
+  - name: L2_P1_19-19.py
+    visible: true
+    learner_created: true
 status: Solved
 record: -1
 post_submission_on_open: true

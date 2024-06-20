@@ -64,6 +64,12 @@ files:
   - name: L1.py
     visible: true
     learner_created: true
+  - name: L1_P1_19-11.py
+    visible: true
+    learner_created: true
+  - name: L1_P1_19-16.py
+    visible: true
+    learner_created: true
 status: Solved
 feedback:
   time: "Tue, 11 Jun 2024 17:54:31 UTC"

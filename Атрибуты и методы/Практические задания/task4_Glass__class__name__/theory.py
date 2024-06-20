@@ -6,7 +6,8 @@ https://colab.research.google.com/drive/1eQ-8lG0b-eunGyUmM_XLKYsRA9_V0CO3?usp=sh
 вызванной для экземпляра вашего класса.
 
 Метод должен возвращать строку, показывающую,
-как может быть инициализирован экземпляр.'''
+как может быть инициализирован экземпляр.
+'''
 
 
 class Book:
@@ -15,9 +16,9 @@ class Book:
 
 
 book = Book("Букварь")
-print(repr(book))
-print(f"{book}")
-print(f"{book!r}")
+print(repr(book))  # <__main__.Book object at 0x00000257A48B4FD0>
+print(f"{book}")  # <__main__.Book object at 0x00000257A48B4FD0>
+print(f"{book!r}")  # <__main__.Book object at 0x00000257A48B4FD0>
 
 '''Что делает !r '''
 

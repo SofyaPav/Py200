@@ -15,6 +15,9 @@ files:
   - name: theory.py
     visible: true
     learner_created: true
+  - name: question.py
+    visible: true
+    learner_created: true
 status: Solved
 feedback:
   message: Congratulations!

@@ -3,7 +3,7 @@ files:
   - name: main.py
     visible: true
     placeholders:
-      - offset: 238
+      - offset: 362
         length: 59
         placeholder_text: "...  # TODO определить конструктор и перегрузить метод area"
         initial_state:
@@ -11,7 +11,7 @@ files:
           offset: 238
         initialized_from_dependency: false
         selected: false
-        status: Unchecked
+        status: Failed
         encrypted_possible_answer: |-
           def __init__(self, a, b):
                   self.a = a
@@ -20,7 +20,7 @@ files:
               def area(self):
                   print(f"Вызван метод класса {self.__class__.__name__}")
                   return self.a * self.b
-      - offset: 364
+      - offset: 488
         length: 59
         placeholder_text: "...  # TODO определить конструктор и перегрузить метод area"
         initial_state:
@@ -28,7 +28,7 @@ files:
           offset: 364
         initialized_from_dependency: false
         selected: false
-        status: Unchecked
+        status: Failed
         encrypted_possible_answer: |-
           def __init__(self, r):
                   self.r = r
@@ -80,5 +80,14 @@ files:
       Вызван метод класса Rectangle
       Вызван метод класса Circle
     learner_created: false
-status: Unchecked
+  - name: theory_dl-ido_polymorphism.py
+    visible: true
+    learner_created: true
+  - name: theory_sites_polymorphism.py
+    visible: true
+    learner_created: true
+status: Failed
+feedback:
+  message: Error during execution
+  time: "Wed, 26 Jun 2024 17:55:07 UTC"
 record: -1

@@ -13,6 +13,8 @@ files:
           length: 44
           offset: 144
         initialized_from_dependency: false
+        selected: true
+        status: Solved
         encrypted_possible_answer: |-
           if not isinstance(capacity_volume, (int, float)):
                       raise TypeError
@@ -25,9 +27,6 @@ files:
                   if occupied_volume < 0:
                       raise ValueError
                   self.occupied_volume = occupied_volume  # объем жидкости в стакане
-        selected: true
-        status: Solved
-        is_visible: false
       - offset: 0
         length: 355
         placeholder_text: "...  # TODO инициализировать два объекта типа Glass"
@@ -35,12 +34,11 @@ files:
           length: 51
           offset: 222
         initialized_from_dependency: false
+        selected: false
+        status: Solved
         encrypted_possible_answer: |-
           glass1 = Glass(200, 100)  # экземпляр класса
               glass2 = Glass(500, 50)  # экземпляр класса
-        selected: false
-        status: Solved
-        is_visible: false
       - offset: 0
         length: 381
         placeholder_text: '# TODO попробовать инициализировать не корректные объекты'
@@ -48,12 +46,11 @@ files:
           length: 57
           offset: 279
         initialized_from_dependency: false
+        selected: true
+        status: Solved
         encrypted_possible_answer: |-
           incorrect_capacity_volume_type = ...
               incorrect_occupied_volume_value = ...
-        selected: true
-        status: Solved
-        is_visible: false
     learner_created: false
   - name: help.py
     visible: true
@@ -64,6 +61,9 @@ files:
   - name: L1.py
     visible: true
     learner_created: true
+  - name: L1_P2_19-53.py
+    visible: true
+    learner_created: true
   - name: L1_P1_19-11.py
     visible: true
     learner_created: true
@@ -71,9 +71,6 @@ files:
     visible: true
     learner_created: true
   - name: L1_P1_19-20.py
-    visible: true
-    learner_created: true
-  - name: L1_P2_19-53.py
     visible: true
     learner_created: true
 status: Solved

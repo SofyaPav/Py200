@@ -5,16 +5,26 @@ files:
     learner_created: false
   - name: main.py
     visible: true
+    text: |
+      class Glass:
+          def __init__(self, capacity_volume: int, occupied_volume: int):
+              self.capacity_volume = capacity_volume
+              self.occupied_volume = occupied_volume
+      
+      
+      if __name__ == "__main__":
+          glass = Glass(200, 0)
+          print(dir(glass))
     learner_created: false
-  - name: L2_P1_18-18.py
+  - name: L2_P1_19-19.py
     visible: true
     learner_created: true
   - name: L2_P1_by Obidin.py
     visible: true
     learner_created: true
-  - name: L2_P1_19-19.py
+  - name: L2_P1_18-18.py
     visible: true
     learner_created: true
-status: Solved
+status: Unchecked
 record: -1
 post_submission_on_open: true

@@ -10,9 +10,16 @@ class Figure:
 
 
 class Rectangle(Figure):
-    """ Производный класс. Прямоугольник. """
+        def __init__(self):
+            super().__init__()
 
-    ...  # TODO определить конструктор и перегрузить метод area
+            self.length = length
+
+        def area(self):
+            return self.length**2
+
+    def fact(self):
+        return "Squares have each angle equal to 90 degrees."
 
 
 class Circle(Figure):

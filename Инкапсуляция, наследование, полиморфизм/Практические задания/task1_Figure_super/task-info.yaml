@@ -3,8 +3,8 @@ files:
   - name: main.py
     visible: true
     placeholders:
-      - offset: 202
-        length: 22
+      - offset: 198
+        length: 23
         placeholder_text: '# TODO вызвать конструктор базового класса с помощью super'
         initial_state:
           length: 58
@@ -50,5 +50,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: "Wed, 26 Jun 2024 17:01:47 UTC"
+  time: "Wed, 03 Jul 2024 16:23:30 UTC"
 record: -1

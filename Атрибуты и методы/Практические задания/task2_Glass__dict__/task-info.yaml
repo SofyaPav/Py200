@@ -3,8 +3,8 @@ files:
   - name: main.py
     visible: true
     placeholders:
-      - offset: 173
-        length: 159
+      - offset: 1021
+        length: 130
         placeholder_text: |-
           self.capacity_volume = capacity_volume  # объем стакана
                   self.occupied_volume = occupied_volume  # объем жидкости в стакане
@@ -12,14 +12,13 @@ files:
           length: 130
           offset: 144
         initialized_from_dependency: false
+        selected: true
+        status: Failed
         encrypted_possible_answer: |-
           print(self.__dict__)
                   self.capacity_volume = capacity_volume  # объем стакана
                   self.occupied_volume = occupied_volume  # объем жидкости в стакане
                   print(self.__dict__)
-        selected: false
-        status: Solved
-        is_visible: false
     learner_created: false
   - name: __init__.py
     visible: false
@@ -27,8 +26,11 @@ files:
   - name: tests/output.txt
     visible: false
     learner_created: false
-status: Solved
+status: Failed
 feedback:
-  message: Congratulations!
-  time: "Wed, 19 Jun 2024 16:20:28 UTC"
+  message: Incorrect
+  time: "Wed, 03 Jul 2024 15:39:47 UTC"
+  actual: |
+    {}
+    {'capacity_volume': 200, 'occupied_volume': 100}
 record: -1

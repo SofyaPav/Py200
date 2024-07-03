@@ -25,6 +25,8 @@ files:
   - name: L2_P1_18-18.py
     visible: true
     learner_created: true
-status: Unchecked
+status: Solved
+feedback:
+  time: "Wed, 03 Jul 2024 17:09:55 UTC"
 record: -1
 post_submission_on_open: true

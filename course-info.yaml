@@ -8,6 +8,12 @@ content:
   - Атрибуты и методы
   - "Инкапсуляция, наследование, полиморфизм"
   - Итоговое задание
+additional_files:
+  - name: .idea/inspectionProfiles/profiles_settings.xml
+  - name: Атрибуты и методы/__init__.py
+  - name: Атрибуты и методы/Практические задания/__init__.py
+  - name: "Инкапсуляция, наследование, полиморфизм/__init__.py"
 mode: Study
 vendor:
   name: Алексей Первушин
+yaml_version: 2

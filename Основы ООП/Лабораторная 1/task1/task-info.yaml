@@ -5,13 +5,28 @@ files:
     learner_created: false
   - name: main.py
     visible: true
-    text: |
-      # TODO Написать 3 класса с документацией и аннотацией типов
-      
-      if __name__ == "__main__":
-          # TODO работоспособность экземпляров класса проверить с помощью doctest
-          pass
     learner_created: false
+  - name: try1_1.py
+    visible: true
+    learner_created: true
+  - name: try1_2.py
+    visible: true
+    learner_created: true
+  - name: example_1.py
+    visible: true
+    learner_created: true
+  - name: try_1_3.py
+    visible: true
+    learner_created: true
+  - name: example_2.py
+    visible: true
+    learner_created: true
+  - name: try_1_4.py
+    visible: true
+    learner_created: true
+  - name: task_description.py
+    visible: true
+    learner_created: true
 status: Solved
 record: -1
 post_submission_on_open: true

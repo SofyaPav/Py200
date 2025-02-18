@@ -10,7 +10,7 @@ files:
     visible: true
     placeholders:
       - offset: 188
-        length: 26
+        length: 342
         placeholder_text: "# TODO написать класс Book"
         initial_state:
           length: 26
@@ -19,8 +19,14 @@ files:
         encrypted_possible_answer: |-
           class Book:
               ...
-        selected: false
-        status: Unchecked
+        selected: true
+        status: Solved
     learner_created: false
-status: Unchecked
+  - name: try1_1.py
+    visible: true
+    learner_created: true
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Tue, 18 Feb 2025 21:06:11 UTC"
 record: -1

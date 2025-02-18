@@ -10,7 +10,7 @@ files:
     visible: true
     placeholders:
       - offset: 188
-        length: 26
+        length: 343
         placeholder_text: "# TODO написать класс Book"
         dependency:
           section: Атрибуты и методы
@@ -21,15 +21,15 @@ files:
         initial_state:
           length: 26
           offset: 188
-        initialized_from_dependency: false
+        initialized_from_dependency: true
         encrypted_possible_answer: |-
           class Book:
               ...
         selected: false
-        status: Unchecked
+        status: Solved
         is_visible: false
-      - offset: 217
-        length: 29
+      - offset: 534
+        length: 558
         placeholder_text: "# TODO написать класс Library"
         initial_state:
           length: 29
@@ -38,8 +38,14 @@ files:
         encrypted_possible_answer: |-
           class Library:
               ...
-        selected: false
-        status: Unchecked
+        selected: true
+        status: Solved
     learner_created: false
-status: Unchecked
+  - name: try1.py
+    visible: true
+    learner_created: true
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Tue, 18 Feb 2025 21:25:33 UTC"
 record: -1

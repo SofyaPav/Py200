@@ -3,8 +3,8 @@ files:
   - name: main.py
     visible: true
     placeholders:
-      - offset: 362
-        length: 59
+      - offset: 489
+        length: 0
         placeholder_text: "...  # TODO определить конструктор и перегрузить метод area"
         initial_state:
           length: 59
@@ -19,9 +19,9 @@ files:
                   print(f"Вызван метод класса {self.__class__.__name__}")
                   return self.a * self.b
         selected: false
-        status: Failed
-      - offset: 488
-        length: 59
+        status: Solved
+      - offset: 556
+        length: 119
         placeholder_text: "...  # TODO определить конструктор и перегрузить метод area"
         initial_state:
           length: 59
@@ -34,8 +34,8 @@ files:
               def area(self):
                   print(f"Вызван метод класса {self.__class__.__name__}")
                   return math.pi * self.r ** 2
-        selected: false
-        status: Failed
+        selected: true
+        status: Solved
     learner_created: false
   - name: __init__.py
     visible: false
@@ -49,8 +49,8 @@ files:
   - name: theory_sites_polymorphism.py
     visible: true
     learner_created: true
-status: Failed
+status: Solved
 feedback:
-  message: Error during execution
-  time: "Wed, 26 Jun 2024 17:55:07 UTC"
+  message: Congratulations!
+  time: "Wed, 19 Feb 2025 19:24:57 UTC"
 record: -1

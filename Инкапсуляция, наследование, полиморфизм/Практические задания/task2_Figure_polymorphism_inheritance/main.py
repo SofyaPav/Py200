@@ -10,23 +10,26 @@ class Figure:
 
 
 class Rectangle(Figure):
-        def __init__(self):
-            super().__init__()
-
+        def __init__(self, length: float, width: float):
             self.length = length
+            self.width = width
 
-        def area(self):
-            return self.length**2
+        def area(self) -> float:
+            print(f"Вызван метод класса {self.__class__.__name__}")
+            return self.length * self.width  # Формула площади прямоугольника
 
-    def fact(self):
-        return "Squares have each angle equal to 90 degrees."
+
 
 
 class Circle(Figure):
     """ Производный класс. Круг. """
 
-    ...  # TODO определить конструктор и перегрузить метод area
+    def __init__(self, radius: float):
+        self.radius = radius  # TODO определить конструктор и перегрузить метод area
 
+    def area(self) -> float:
+        print(f"Вызван метод класса {self.__class__.__name__}")
+        return math.pi * self.radius ** 2  # Формула площади круга
 
 if __name__ == "__main__":
     fig = Figure()

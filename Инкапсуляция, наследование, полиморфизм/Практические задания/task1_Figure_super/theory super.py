@@ -9,3 +9,5 @@ class Child(Parent):
 
 child = Child()
 child.introduce()
+# Привет от родителя!
+# А теперь представляется ребенок!

@@ -41,7 +41,7 @@ files:
         selected: true
         status: Solved
     learner_created: false
-  - name: try1.py
+  - name: draft_1.py
     visible: true
     learner_created: true
 status: Solved

@@ -1,3 +1,5 @@
+
+
 class Book:
     """ Базовый класс книги. """
     def __init__(self, name: str, author: str):
